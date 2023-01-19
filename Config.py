@@ -6,7 +6,7 @@ class Config((object)):
     # The Telegram API things
     APP_ID = int(os.environ.get("APP_ID", 12345))
     API_HASH = os.environ.get("API_HASH")
-    AUTH_USERS = '1940030638'
+    AUTH_USERS = '1391556668 5162208212 5239847373'
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
     BANNED_USERS = {int(x) for x in os.environ.get("BANNED_USERS", "").split()}
@@ -32,7 +32,7 @@ class Config((object)):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", "1940030638"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1391556668 5162208212 5239847373"))
     # database session name, example: xurluploader
     SESSION_NAME = os.environ.get("SESSION_NAME", "UrlUploadDcBot")
     # database uri (mongodb)
